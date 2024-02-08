@@ -76,5 +76,5 @@ hcloud image list | grep fedora-39-coreos-cx11
 Anytime you'll want to deploy a new server, you'll need to create a new server with the same image id :
 ```bash
 hcloud server create --datacenter nbg1-dc3 --image [MY_IMAGE_ID] --type cx11 \
-    --ssh-key mmtr --name fenod
+    --ssh-key mmtr --name [MY_SERVER_NAME]
 ```    
